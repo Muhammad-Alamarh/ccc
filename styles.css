@@ -1,4 +1,4 @@
-/* اجعل الإطار يملأ الصفحة بالكامل */
+/* تأكد من أن الصفحة تمتلئ بالكامل */
 html, body {
     height: 100%;
     margin: 0;
@@ -9,9 +9,17 @@ html, body {
 #form1 {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;  /* تأكد من أن الحاوية ثابتة في الصفحة */
     top: 0;
     left: 0;
+    margin: 0;
+    padding: 0;
 }
 
+/* إضافة تعديل للتأكد من أن محتوى النموذج يملأ المساحة المتاحة */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;  /* إزالة الإطار الافتراضي للـ iframe */
+}
 
