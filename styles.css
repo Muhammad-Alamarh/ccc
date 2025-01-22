@@ -9,7 +9,4 @@ body[dir="rtl"] {
     direction: rtl;  /* تعيين الاتجاه من اليمين لليسار */
     text-align: right;  /* محاذاة النص إلى اليمين */
 }
-html .cog-cognito *, html .cog-cognito *::before, html .cog-cognito *::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito *::before, :root:root:root:root:root .cog-cognito *::after {
-    overflow-x: hidden;  /* إخفاء التمرير الأفقي داخل القوائم المنسدلة */
-    white-space: nowrap; /* منع النصوص من التمدد إلى السطر التالي */
-}
+
