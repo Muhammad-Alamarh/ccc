@@ -18,8 +18,8 @@ html, body {
 }
 
 
-.cog-choice--dropdown {
-    background-color: #ff5733;  /* اللون الذي تريده للخلفية */
-    color: #fff;  /* تغيير لون النص داخل القائمة */
+.cog-choice--dropdown select:focus {
+    background-color: #cc0000;  /* خلفية حمراء داكنة عند التحديد */
+    color: #fff;  /* النص باللون الأبيض عند التحديد */
 }
 
