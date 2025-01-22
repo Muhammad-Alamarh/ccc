@@ -9,3 +9,7 @@ body[dir="rtl"] {
     direction: rtl;  /* تعيين الاتجاه من اليمين لليسار */
     text-align: right;  /* محاذاة النص إلى اليمين */
 }
+.cog-choice--dropdown, .el-select-dropdown__wrap {
+    overflow-x: hidden;  /* إخفاء التمرير الأفقي داخل القوائم المنسدلة */
+    white-space: nowrap; /* منع النصوص من التمدد إلى السطر التالي */
+}
