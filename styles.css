@@ -1,24 +1,12 @@
 /* تأكد من أن الصفحة تمتلئ بالكامل */
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
     direction: rtl;  /* تغيير اتجاه النص ليكون من اليمين لليسار */
 }
 
-#form1 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
+html .cog-cognito .el-select-dropdown__wrap,
+html .cog-cognito .el-autocomplete-suggestion__wrap,
+:root .cog-cognito .el-select-dropdown__wrap,
+:root .cog-cognito .el-autocomplete-suggestion__wrap {
+    direction: rtl;  /* تعيين اتجاه النص من اليمين لليسار */
 }
-
-
-#my-awesome-website .cog-label {
-  color: red;
-}
-
