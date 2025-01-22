@@ -3,23 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>نموذج من اليمين إلى اليسار</title>
+  <title>نموذج مرن</title>
   <style>
-    /* تطبيق اتجاه النص ومحاذاة العناصر */
+    /* نمط عام للصفحة */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* محاذاة المحتوى أفقياً */
+      align-items: center;   /* محاذاة المحتوى عمودياً */
+      height: 100vh;         /* اجعل ارتفاع الصفحة يعادل 100% من ارتفاع النافذة */
+      width: 100vw;          /* اجعل عرض الصفحة يعادل 100% من عرض النافذة */
+      background-color: #f9f9f9; /* لون خلفية اختياري */
+    }
+
+    /* حاوية النموذج */
     .rtl-container {
       direction: rtl;
       text-align: right;
-      overflow-y: hidden; /* إلغاء شريط التمرير العمودي */
+      width: 90%; /* عرض الحاوية 90% من عرض الشاشة */
+      max-width: 600px; /* أقصى عرض للحاوية */
+      height: auto; /* اجعل الارتفاع تلقائي */
+      overflow-y: hidden; /* منع شريط التمرير العمودي */
+      background: #fff; /* لون خلفية النموذج */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل جميل للحاوية */
+      padding: 20px; /* مسافة داخلية للحاوية */
+      border-radius: 8px; /* زوايا دائرية للحاوية */
     }
 
-    /* تصغير حجم النصوص */
+    /* تصغير النصوص */
     *#dm div.dmContent h1, *#dm div.dmFooter h1, *#dm div.dm-title h1 {
       font-size: 12px;
-    }
-
-    /* إذا أردت إلغاء التمرير على الصفحة بأكملها */
-    body {
-      overflow-y: hidden; /* إلغاء شريط التمرير العمودي في الصفحة */
     }
   </style>
 </head>
