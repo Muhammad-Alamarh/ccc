@@ -18,8 +18,7 @@ html, body {
 }
 
 
-.cog-choice--dropdown select:focus {
-    background-color: #cc0000;  /* خلفية حمراء داكنة عند التحديد */
-    color: #fff;  /* النص باللون الأبيض عند التحديد */
+#my-awesome-website .cog-label {
+  color: red;
 }
 
