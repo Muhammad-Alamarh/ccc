@@ -1,12 +1,4 @@
-/* تأكد من أن الصفحة تمتلئ بالكامل */
- body {
-
-    direction: rtl;  /* تغيير اتجاه النص ليكون من اليمين لليسار */
-}
-
-html .cog-cognito .el-select-dropdown__wrap,
-html .cog-cognito .el-autocomplete-suggestion__wrap,
-:root .cog-cognito .el-select-dropdown__wrap,
-:root .cog-cognito .el-autocomplete-suggestion__wrap {
-    direction: rtl;  /* تعيين اتجاه النص من اليمين لليسار */
+iframe {
+    direction: rtl;  /* تغيير اتجاه النص داخل iframe إلى اليمين لليسار */
+    text-align: right;  /* محاذاة النص إلى اليمين */
 }
