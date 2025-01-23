@@ -2,7 +2,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>نموذج RTL</title>
-  <link rel="stylesheet" href="https://Muhammad-Alamarh.github.io/exams/styles.css">
 
 </head>
 <body>
@@ -16,5 +15,73 @@
 </footer>
 
 </body>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+    .cairo-<uniquifier> {
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+body {
+      font-family: "Cairo", serif;
+      direction: rtl;
 
+      margin: 1px !important;
+    }
+    #form1 {
+      direction: rtl;
+      margin: 100 auto;
+      border: 2px solid #ccc;
+      padding: 20px;
+      border-radius: 4px;
+      background-color: #f9f9f9;
+      max-width: 1200px;
+      font-family: "Cairo", serif;
+    }
+
+
+    .footer-text {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+    html .cog-icon, :root:root:root:root:root .cog-icon {
+    width: 1.7em;
+    height: 1.7em;
+    vertical-align: middle;
+    font-size: 1em;
+    fill: transparent;
+    stroke: currentcolor;
+    stroke-width: var(--icon-weight);
+    display: none;
+}
+html .cog-cognito .el-select-dropdown__list li, html .cog-cognito .el-autocomplete-suggestion__list li, :root:root:root:root:root .cog-cognito .el-select-dropdown__list li, :root:root:root:root:root .cog-cognito .el-autocomplete-suggestion__list li {
+    position: relative;
+    padding: calc(var(--gutter)/4) calc(var(--gutter)/2);
+    cursor: default;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px !important;
+    direction: rtr;
+}
+.el-select-dropdown__wrap.el-scrollbar__wrap {
+    direction: ltr;
+}
+    .cog-text{
+      direction: rtl;
+    }
+html .cog-label, :root:root:root:root:root .cog-label {
+    display: block;
+    padding-top: calc(var(--gutter)/4);
+    color: var(--label__color, inherit);
+    font-family: 'Cairo';
+    font-size: var(--label__font-size, inherit);
+    font-weight: var(--label__font-weight, normal);
+}
+
+  </style>
 
