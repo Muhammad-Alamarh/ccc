@@ -9,27 +9,21 @@
     "slnt" 0;
 }
 body {
-    font-family: "Cairo", serif;
-    direction: rtl;
-    margin: 0; /* إزالة المسافة العلوية */
-    height: 100vh; /* استخدام ارتفاع الشاشة بالكامل */
-    display: flex;
-    justify-content: center; /* لضمان أن النموذج في المنتصف أفقيا */
-    align-items: flex-start; /* لضمان أن النموذج في أعلى الصفحة عمودياً */
-}
+      font-family: "Cairo", serif;
+      direction: rtl;
 
-#form1 {
-    direction: rtl;
-    margin: 0; /* إزالة الهامش */
-    border: 2px solid #ccc;
-    padding: 0; /* إزالة المسافة بين الإطار والمحتوى */
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    max-width: 1200px;
-    font-family: "Cairo", serif;
-    width: 100%; /* ليأخذ النموذج عرض الشاشة بالكامل */
-    height: 100%; /* ليأخذ النموذج ارتفاع الشاشة بالكامل */
-}
+      margin: 10px;
+    }
+    #form1 {
+      direction: rtl;
+      margin: 100 auto;
+      border: 2px solid #ccc;
+      padding: 0px;
+      border-radius: 4px;
+      background-color: #f9f9f9;
+      max-width: 1200px;
+      font-family: "Cairo", serif;
+    }
 
 
     .footer-text {
