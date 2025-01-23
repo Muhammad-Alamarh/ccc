@@ -1,4 +1,4 @@
-html .cog-picker .cog-icon, html .cog-picker .cog-icon g, html .cog-input--icon .cog-icon, html .cog-input--icon .cog-icon g, :root:root:root:root:root .cog-picker .cog-icon, :root:root:root:root:root .cog-picker .cog-icon g, :root:root:root:root:root .cog-input--icon .cog-icon, :root:root:root:root:root .cog-input--icon .cog-icon g {
+#form1 > form > div > div > div.cog-body > div > div:nth-child(4) > div > div.cog-choice > div.cog-picker.cog-select.cog-input > div > div > span > span > span > svg {
     fill: transparent;
     stroke: var(--input__color, var(--color));
     stroke-width: calc(var(--icon-weight)*1.5px);
