@@ -1,3 +1,5 @@
+  <style>
+
 body {
       font-family: Arial, sans-serif;
       direction: rtl;
@@ -30,3 +32,4 @@ body {
     stroke-width: var(--icon-weight);
     display: none;
 }
+  </style>
