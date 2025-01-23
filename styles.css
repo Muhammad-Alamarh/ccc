@@ -1,1 +1,7 @@
-
+html .cog-picker .cog-icon, html .cog-picker .cog-icon g, html .cog-input--icon .cog-icon, html .cog-input--icon .cog-icon g, :root:root:root:root:root .cog-picker .cog-icon, :root:root:root:root:root .cog-picker .cog-icon g, :root:root:root:root:root .cog-input--icon .cog-icon, :root:root:root:root:root .cog-input--icon .cog-icon g {
+    fill: transparent;
+    stroke: var(--input__color, var(--color));
+    stroke-width: calc(var(--icon-weight)*1.5px);
+    /* direction: ltr !important; */
+    display: none;
+}
