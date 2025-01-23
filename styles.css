@@ -1,7 +1,32 @@
-body > div.el-select-dropdown.el-popper.cog-cognito.cog-26.cog-cognito--styled.cog-select-popper.cog-cognito--protect-css {
+body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+
+      margin: 20px;
+    }
+    #form1 {
+      direction: rtl;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      max-width: 1200px;
+    }
+
+
+    .footer-text {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+    html .cog-icon, :root:root:root:root:root .cog-icon {
+    width: 1.7em;
+    height: 1.7em;
+    vertical-align: middle;
+    font-size: 1em;
     fill: transparent;
-    stroke: var(--input__color, var(--color));
-    stroke-width: calc(var(--icon-weight)*1.5px);
-    /* direction: ltr !important; */
+    stroke: currentcolor;
+    stroke-width: var(--icon-weight);
     display: none;
 }
