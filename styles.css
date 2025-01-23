@@ -1,4 +1,4 @@
-#form1 > form > div > div > div.cog-body > div > div:nth-child(4) > div > div.cog-choice > div.cog-picker.cog-select.cog-input > div > div > span > span > span > svg {
+body > div.el-select-dropdown.el-popper.cog-cognito.cog-26.cog-cognito--styled.cog-select-popper.cog-cognito--protect-css {
     fill: transparent;
     stroke: var(--input__color, var(--color));
     stroke-width: calc(var(--icon-weight)*1.5px);
