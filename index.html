@@ -18,12 +18,13 @@ Cognito.overrideText("fileupload-dropzone-message","");
 </footer>
 <style>
       .footer-text {
-    text-align: center;
-    margin-top: 0px !important;
-    color: #55727b;
-    background: aliceblue;
-    border: 2px,solid;
-    border-radius: 1px;
+      position: fixed; /* يثبّت العنصر */
+      bottom: 0; /* يجعله في الأسفل دائمًا */
+      left: 0;
+      width: 100%; /* ليشمل العرض الكامل */
+      background: aliceblue; /* خلفية اللون */
+      padding: 10px 0; /* مسافة داخلية */
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* ظل بسيط */
 }
 </style>
 </body>
