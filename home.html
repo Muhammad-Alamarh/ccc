@@ -6,56 +6,81 @@
   <title>صفحة حول</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: 'Cairo', Arial, sans-serif;
+      line-height: 1.8;
       margin: 0;
       padding: 0;
       text-align: center;
-      background-color: #f4f4f4;
+      background-color: #eef2f3;
+      color: #333;
     }
     header {
-      background: #007bff;
+      background: linear-gradient(90deg, #007bff, #0056b3);
       color: white;
-      padding: 10px 0;
+      padding: 15px 0;
       margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     h1 {
       margin: 0;
+      font-size: 2.5em;
     }
     p {
       margin: 20px 0;
+      font-size: 1.2em;
     }
     .buttons {
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
     }
     .buttons a {
       text-decoration: none;
       background: #007bff;
       color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 18px;
-      transition: background 0.3s;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     .buttons a:hover {
       background: #0056b3;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+    footer {
+      margin-top: 30px;
+      padding: 10px 0;
+      background: #f4f4f4;
+      font-size: 0.9em;
+      color: #555;
+    }
+    footer a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>صفحة حول</h1>
+    <h1>مرحبًا بكم في صفحة حول</h1>
   </header>
-  <p>مرحبًا بكم في صفحة حول. اختر القسم الذي ترغب في زيارته:</p>
+  <p>نحن سعداء بزيارتكم! هنا يمكنكم اختيار القسم الذي ترغبون في استكشافه. اختر ما يناسبك من الخيارات أدناه:</p>
   <div class="buttons">
-    <a href="primary.html">الابتدائي</a>
-    <a href="middle.html">المتوسط</a>
-    <a href="secondary.html">الإعدادي</a>
+    <a href="primary.html">المرحلة الابتدائية</a>
+    <a href="middle.html">المرحلة المتوسطة</a>
+    <a href="secondary.html">المرحلة الإعدادية</a>
   </div>
   <footer>
-    <p><a href="index.html">العودة إلى الصفحة الرئيسية</a></p>
+    <p>© 2025 جميع الحقوق محفوظة. <a href="index.html">العودة إلى الصفحة الرئيسية</a></p>
   </footer>
 </body>
 </html>
