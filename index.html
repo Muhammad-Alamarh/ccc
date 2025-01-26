@@ -50,8 +50,12 @@ Cognito.overrideText("fileupload-dropzone-message","");
 </body>
   <style>
 @font-face {
-  font-family: sltan;
-  src: herf(Sultan-bold.ttf);
+    font-family: 'Sultan-normal';
+    src: url('Sultannormal.woff2') format('woff2'),
+        url('Sultannormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
     
@@ -79,7 +83,7 @@ Cognito.overrideText("fileupload-dropzone-message","");
 
 /*#################################################*/
 body {
-      font-family:  "sltan";
+      font-family:  'Sultan-normal';
       direction: rtl;
 
       margin: 1 auto;
